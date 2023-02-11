@@ -7,7 +7,7 @@ function Items(props) {
   return (
     <>
       <Card key={props.id} style={{ width: "18rem", margin:"1rem"}} className="cardhover"><br/>
-        <Card.Img style={{width:"auto",height:"13rem",margin:"0 20%", objectFit:"cover"}} variant="top" src={props.img} />
+        <Card.Img style={{width:"10rem",height:"13rem",margin:"0 20%", objectFit:"cover"}} variant="top" src={props.img} />
         <Card.Body className="text-center">
           <Card.Title>{props.name}</Card.Title>
           {props.rating}<br/>
