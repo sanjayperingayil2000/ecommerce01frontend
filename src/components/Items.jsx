@@ -6,8 +6,8 @@ import "../index.css";
 function Items(props) {
   return (
     <>
-      <Card key={props.id} style={{ width: "18rem", margin:"1rem"}} className="cardhover"><br/>
-        <Card.Img style={{width:"10rem",height:"auto",margin:"0 20%"}} variant="top" src={props.img} />
+      <Card key={props.id} style={{ width: "18rem", margin:"1rem, 0"}} className="cardhover"><br/>
+        <Card.Img style={{width:"auto",height:"10rem",margin:"0 20%"}} variant="top" src={props.img} />
         <Card.Body className="text-center">
           <Card.Title>{props.name}</Card.Title>
           {props.rating}<br/>
